@@ -1,0 +1,88 @@
+ 
+.category-master-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .category-master-container h2 {
+    text-align: center;
+  }
+  
+  .category-master-container input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .center-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category-master-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .category-item button {
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .category-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .category-item .category-details {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the category name */
+    flex-grow: 1; /* Allow category details to take remaining space */
+  }
+  
+  .category-item .category-details span {
+    margin-right: 10px; /* Add margin between category name and buttons */
+  }
+  
+  .category-item .category-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the buttons */
+  }
+  
+  .category-item .category-buttons button {
+    margin-right: 15px; /* Add margin between buttons */
+  }
+  
+  
